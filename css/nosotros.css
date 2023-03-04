@@ -1,37 +1,42 @@
-
-:root{
-    --font:  sans-serif;
-    --color: #3f79e4;
+:root {
+    --font: sans-serif;
+    --color: #e43f3f;
     --dark: #092032;
 }
 
-body{
+body {
     font-family: var(--font);
+}
+
+.justify {
+    text-align: justify;
 }
 
 /* Modal */
 
-.bgmodal{
-   background: url(images/login.jpg) center/cover no-repeat;
+.bgmodal {
+    background: url(images/login.jpg) center/cover no-repeat;
 }
-.modal-body{
+
+.modal-body {
     border-radius: 50px !important;
 }
 
 /* Modal chatear */
-.iconfoot, .text-grad{
-    color:  var(--color) !important;
+.iconfoot,
+.text-grad {
+    color: var(--color) !important;
 }
 
-.colorgreen{
-    font-size:xx-large !important;
-    color:  var(--color) !important;
+.colorgreen {
+    font-size: xx-large !important;
+    color: var(--color) !important;
 }
 
 
-.contatoIcon{
+.contatoIcon {
     font-size: 6rem;
-    color:  var(--color) !important;
+    color: var(--color) !important;
 }
 
 
@@ -39,6 +44,7 @@ body{
     font-weight: 700;
     color: var(--dark);
 }
+
 .modal h2 {
     font-weight: 700;
     color: var(--dark);
@@ -54,7 +60,7 @@ body{
     text-align: center;
 }
 
-.chat-item .image{
+.chat-item .image {
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -62,7 +68,7 @@ body{
 
 .chat-item:hover {
     background-color: rgba(28, 108, 169, 0.2);
-    
+
 }
 
 
@@ -74,84 +80,85 @@ body{
 
 
 /* button */
-.bg-primary{
-    background-color: var(--color)!important;
+.bg-primary {
+    background-color: var(--color) !important;
 }
 
 
 /* titulo */
 
-#titulo{
-    color: var(--color)!important;
+#titulo {
+    color: var(--color) !important;
 }
 
-img{
+img {
     border-radius: 25px;
 }
 
 /* Ajuste a todos los botones menos el de la barra de navegación */
 
-.btn:not(.nav-btns button){
+.btn:not(.nav-btns button) {
     background-color: #fff;
     color: rgb(85, 85, 85);
     padding: 10px 28px;
     border-radius: 25px;
     border: 1px solid rgb(85, 85, 85);
 }
-.btn:not(.nav-btns button):hover{
+
+.btn:not(.nav-btns button):hover {
     background-color: var(--color);
     color: #fff;
     border-color: var(--color);
 }
 
 
-.nav-link:hover{
-    color: var(--color)!important;
+.nav-link:hover {
+    color: var(--color) !important;
 }
 
 
 
 /* se cambia el text primary por defecto al color */
-.text-primary{
-    color: var(--color)!important;
+.text-primary {
+    color: var(--color) !important;
 }
 
 
 /* about */
-.about{
+.about {
     margin-top: 3rem !important;
 }
 
 /* footer */
-footer .brand{
+footer .brand {
     font-family: var(--font);
     letter-spacing: 2px;
 }
 
-footer a:hover{
-    color: var(--color)!important;
+footer a:hover {
+    color: var(--color) !important;
 }
 
-.icons{
-    font-size: x-large!important;
+.icons {
+    font-size: x-large !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-.tabla{
+.tabla {
     margin-top: 5rem !important;
 }
 
-.productForm{
+.productForm {
     margin-top: 8rem !important;
 }
 
 
 /* media queries */
-@media(min-width: 992px){
-    .nav-item{
+@media(min-width: 992px) {
+    .nav-item {
         border-bottom: none;
     }
 }
@@ -159,24 +166,38 @@ a{
 /* small queries */
 @media (max-width: 576px) {
     #titulo{
-        font-size:small !important;
+        font-size:larger !important;
+        
+    }
+    .titulonav{
+        font-size: 8rem !important;
     }
 
-    #btn-navbar{
+    #btn-navbar {
         font-size: small !important;
     }
 
-    .carousel-inner h1{
+    .carousel-inner h1 {
         font-size: 35px !important;
     }
-    
-    .carousel-inner h2{
+
+    .carousel-inner h2 {
         font-size: 40px !important;
     }
 
-    .derechos{
+    .derechos {
         padding-left: 0.25rem !important;
-        font-size:small;
+        font-size: small;
+    }
+
+    .map {
+        width: 20rem !important;
+    }
+
+    .futer {
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
 }

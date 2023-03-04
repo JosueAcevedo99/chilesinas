@@ -1,6 +1,6 @@
 :root{
     --font:  sans-serif;
-    --color: #3f79e4;
+    --color: #e43f3f;
     --dark: #092032;
 }
 
@@ -10,12 +10,7 @@ body{
 
 /* Modal */
 
-.bgmodal{
-   background: url(images/login.jpg) center/cover no-repeat;
-}
-.modal-body{
-    border-radius: 50px !important;
-}
+
 
 /* Modal chatear */
 .iconfoot, .text-grad{
@@ -171,57 +166,6 @@ a{
 
 
 
-/* barra */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-contenido {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
-  }
-  
-  .modal-carga {
-    text-align: center;
-  }
-  
-  .barra-de-carga {
-    width: 100%;
-    height: 20px;
-    background-color: #ccc;
-    position: relative;
-  }
-  
-  .barra-de-carga::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: var(--ancho-progreso, 0%);
-    height: 100%;
-    background-color: #007bff;
-    transition: width 5s linear;
-  }
-  
-  .porcentaje-de-carga {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  
-
-
 
 
 
@@ -237,24 +181,31 @@ a{
 /* small queries */
 @media (max-width: 576px) {
     #titulo{
-        font-size:small !important;
+        font-size:larger !important;
+        
+    }
+    .titulonav{
+        font-size: 8rem !important;
     }
 
     #btn-navbar{
         font-size: small !important;
     }
 
-    .carousel-inner h1{
-        font-size: 35px !important;
-    }
-    
-    .carousel-inner h2{
-        font-size: 40px !important;
-    }
-
     .derechos{
         padding-left: 0.25rem !important;
         font-size:small;
     }
+
+    .futer {
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .titulonav{
+        font-size: 8rem !important;
+    }
+
 
 }

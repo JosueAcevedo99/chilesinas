@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-    <!-- Required meta tags -->
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilesinas</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
-        <title>xalapa 3D</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    <!-- custom css -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/catalogo.css">
 
@@ -22,39 +21,36 @@
 
     <body >
 
-
     <!-- navbar -->
-    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                <i class="bi bi-shop"></i>
-                <span class = "fw-lighter ms-2" id="titulo">Xalapa 3D</span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex " href="index.html">
+                <i class="bi bi-fire text-danger fs-4"></i>
+                <span class="fw-lighter ms-2 text-danger fs-4" id="titulo">Chilesinas</span>
             </a>
 
 
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
-                <span class = "navbar-toggler-icon" id="btn-navbar"></span>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon" id="btn-navbar"></span>
             </button>
 
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-dark" href = "index.html">Home</a>
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-dark" href="index.html#servicios">Servicios</a>
                     </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-dark" href = "index.html">Servicios</a>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-dark" href="index.html#special">Conócenos</a>
                     </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-dark" href = "index.html">Portafolio</a>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-dark" href="nosotros.html">Historia</a>
                     </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-dark" href = "nosotros.html">Nosotros</a>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-dark" href="catalogo.html">Catálogo</a>
                     </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-dark" href = "catalogo.html">Catálogo</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn btn-brand ">Chatear</a>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                            class="btn btn-brand ">Chatear</a>
                     </li>
                 </ul>
             </div>
@@ -62,21 +58,12 @@
     </nav>
     <!-- end navbar -->
 
-    <!-- barra de carga -->
-    <div id="mi-modal" class="modal">
-        <div class="modal-contenido">
-          <div class="modal-carga">
-            <div class="barra-de-carga" id="barra-de-carga"></div>
-            <div class="porcentaje-de-carga" id="porcentaje-de-carga">0%</div>
-          </div>
-        </div>
-      </div>
       
 
     <!-- catálogo -->
 
         <div class="d-flex colorpoke justify-content-around mt-5 pt-5 bg-primary">
-            <h4 class="text-white py-2"> Catálogo figuras en venta </h4>
+            <h4 class="text-white pb-2 align-items-center"> Nuestros deliciosos productos </h4>
 
         </div>
 
@@ -90,60 +77,52 @@
 
 
     <!-- footer -->
-    <footer class="bg-dark ">
+    <footer class="bg-dark futer">
         <div class="container">
 
             <div class="row text-white g-4 ">
                 <div class="col-md-6 col-lg-4">
-                    <h5 class="fw-light">Xalapa 3D</h5>
-                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                    <h5 class="fw-light">Chilesinas</h5>
+                    <p class="text-white text-muted mt-3">Chilesinas, golosinas picositas únicas que debes de probar; anímate y pide las tuyas. </p>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 futer" >
                     <h5 class="fw-light mb-3">Contacto</h5>
-                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
-                        <span class="me-3">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </span>
-                        <span class="fw-light">
-                            Xalapa, Veracuz
-                        </span>
-                    </div>
-                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+
+                    <div class="futer d-flex justify-content-start align-items-start my-2 text-muted">
                         <span class="me-3">
                             <i class="bi bi-mailbox2"></i>
                         </span>
                         <span class="fw-light">
-                            generico-gen@gmail.com
+                            chilesinas@gmail.com
                         </span>
                     </div>
-                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                    <div class="futer d-flex justify-content-start align-items-start my-2 text-muted">
                         <span class="me-3">
                             <i class="bi bi-telephone-fill"></i>
                         </span>
                         <span class="fw-light">
-                            2281407599
+                            22-81-70-51-16
                         </span>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
+                <div class="col-md-6 col-lg-2 futer ">
                     <h5 class="fw-light mb-3">Síguenos</h5>
-                    <div>
-                        <ul class="list-unstyled d-flex">
+                    <div class="futer text-center">
+                        <ul class="list-unstyled d-flex futer">
                             <li>
-                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                <a href="https://www.facebook.com/profile.php?id=100041334337270" class="text-white text-decoration-none text-muted fs-4 me-4">
                                     <i class="bi bi-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class="bi bi-twitter"></i>
+                                <a href="https://www.tiktok.com/@chilesinas" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="bi bi-tiktok"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                <a href="https://www.instagram.com/chilesinas/" class="text-white text-decoration-none text-muted fs-4 me-4">
                                     <i class="bi bi-instagram"></i>
                                 </a>
                             </li>
@@ -151,128 +130,85 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <h5 class="fw-light">Secciones</h5>
-                    <ul class="list-unstyled">
-                        <li class="my-3">
-                            <a href="#" class="text-white text-decoration-none text-muted">Home</a>
-                        </li>
-                        <li class="my-3">
-                            <a href="#" class="text-white text-decoration-none text-muted">Catálogo</a>
-                        </li>
-                        <li class="my-3">
-                            <a href="#" class="text-white text-decoration-none text-muted">Nosotros</a>
-                        </li>
-                    </ul>
+                <div class="col-md-6 col-lg-3 icons derechos">
+                    <h5 class="fw-light mb-3">JAAS &copy; <a class="text-primary ms-2" href="https://www.linkedin.com/in/josueaas/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a></h5>
+                        <a class="fs-3 text-light me-3">Intranet</a>
+                
+                        <a href="https://docs.google.com/spreadsheets/d/1f9DObQQYbkOJwv4OfPzhaphAPRWZBU8OTWY55SrZwwo/edit#gid=0"
+                            class="text-white text-decoration-none text-muted fs-4"  target="_blank">  <i class="bi bi-person-bounding-box"></i></a>
                 </div>
 
-                <div class="col-md-6 col-lg-1">
-                    <h5 class="fw-light">Intranet</h5>
-                    <ul class="list-unstyled">
-                        <li class="my-3">
-                            <a href="https://docs.google.com/spreadsheets/d/1f9DObQQYbkOJwv4OfPzhaphAPRWZBU8OTWY55SrZwwo/edit#gid=0"
-                                class="text-white text-decoration-none text-muted">Admin</a>
-                        </li>
-                    </ul>
-                </div>
+               
+                    
+                
+                
+
+
+
 
             </div>
 
-            <div class="row text-white align-items-center derechos">
-                <p class="col-sm-9 fs-4 px-5 derechos pt-3">Josué Acevedo. &copy; Todos Los Derechos Reservados 2023</p>
-
-                <div class="col-sm-2 icons derechos">
-                    <a class="text-primary" href="https://github.com/JosueAcevedo99" target="_blank"><i
-                            class="bi bi-github"></i></a>
-                    <a class="text-primary" href="https://mx.linkedin.com/" target="_blank"><i
-                            class="bi bi-linkedin"></i></a>
-                    <a class="text-primary" href="#"><i class="bi bi-arrow-up-circle-fill"></i></a>
-                </div>
-            </div>
         </div>
 
         </div>
     </footer>
     <!-- end of footer -->
 
-
-     <!-- Modal CHATEAR -->
-     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal CHATEAR -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
-          <div class="modal-content">
-            <div class="modal-header text-center justify-content-center">
-              <h5 class="modal-title fs-2 w-100 text-center"><span class="text-primary">¡Contáctanos</span>  y resolveremos tus dudas!</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                  <a href="https://wa.me/+522281407960" target="_blank">
-                    <div class="chat-item">
-                      <div class="image">
-                        <i class="bi bi-whatsapp contatoIcon"></i>
-                        <div class="overlay"></div>
-                      </div>
-                      <h5>Whatsapp</h5>
-                      <p class="text-primary text-center">22-81-40-79-60</p>
-                    </div>
-                  </a>
+            <div class="modal-content">
+                <div class="modal-header text-center justify-content-center">
+                    <h5 class="modal-title fs-2 w-100 text-center"><span class="text-primary">¡Contáctanos</span> y
+                        resolveremos tus dudas!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-lg-4 col-md-8">
-                  <a href="https://t.me/AcevedoJosue" target="_blank">
-                    <div class="chat-item">
-                      <div class="image">
-                        <i class="bi bi-telegram contatoIcon"></i>
-                        <div class="overlay"></div>
-                      </div>
-                      <h5>Telegram</h5>
-                      <p class="text-primary text-center">@ClasesXalapa</p>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                  <a href="https://www.messenger.com/t/100002966635878" target="_blank">
-                    <div class="chat-item">
-                      <div class="image my-auto py-auto">
-                        <i class="bi bi-messenger contatoIcon"></i>
-                      </div>
-                      <h5>Messenger </h5>
-                      <p class="text-primary text-center">Clases Xalapa</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end of Modal CHATEAR -->
-    
-    
-
-
-        <!-- Modal Detalles -->
-        <div class="modal fade" id="exampleModalDetalles" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-xl">
-                <div class="modal-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="intro py-2">
-                                    <h2 class="colorgreen text-center">Detallles</h2>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://wa.me/+522281705116" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image">
+                                        <i class="bi bi-whatsapp contatoIcon"></i>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h5>Whatsapp</h5>
+                                    <p class="text-primary text-center">22-81-70-51-16</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="row justify-content-center">
-                            <div id="modalDetalles" class="row row-cols-lg-2">
-
-                            </div>
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://www.instagram.com/p/CpNqns6sdfc/" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image">
+                                        <i class="bi bi-instagram contatoIcon"></i>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h5>Instagram</h5>
+                                    <p class="text-primary text-center">@Chilesinas</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://www.messenger.com/t/100041334337270" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image my-auto py-auto">
+                                        <i class="bi bi-messenger contatoIcon"></i>
+                                    </div>
+                                    <h5>Messenger </h5>
+                                    <p class="text-primary text-center">Chilesinas</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end of Modal Detalles -->
+    </div>
+    <!-- end of Modal CHATEAR -->
+    
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
