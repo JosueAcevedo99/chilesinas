@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilesinas</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex " href="index.html">
+                <i class="bi bi-fire text-danger"></i>
+                <span class="fw-lighter ms-2 text-danger" id="titulo">Chilesinas</span>
+            </a>
+
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon" id="btn-navbar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-dark" href="#carouselExampleInterval">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-dark" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-dark" href="#special">Conócenos</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-dark" href="nosotros.html">Historia</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-dark" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                            class="btn btn-brand ">Chatear</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Carrusel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/banner-1.webp" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner-2.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner-3.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carrusel -->
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-4 macetas">
+        <div class="title text-center">
+            <h2 class="position-relative d-inline-block py-5">Servicios</h2>
+        </div>
+
+        <div class="container">
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3 text-center">
+                    <img src="images/servicios-1.webp" alt="">
+                    <div class="card-body px-0 ">
+                        <h4 class="card-title">Mesa de dulces para eventos</h4>
+                        <p class="card-text mt-3 text-muted">Ofrecemos nuestro carrito de dulces para endulzar tu fiesta. Con una gran variedad de golosinas y un toque personalizado, será el complemento perfecto para hacer de tu evento un éxito dulce.</p>
+                        <a href="https://wa.me/+522281705116" target="_blank" class="btn">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3 text-center">
+                    <img src="images/servicios-2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Detalles personalizados</h4>
+                        <p class="card-text mt-3 text-muted">¡Sorprende a tus seres queridos con nuestros detalles de regalo personalizados de gomitas enchiladas! Un toque picosito y divertido para cualquier ocasión especial. ¡Ordena ahora y endulza tu regalo!.</p>
+                        <a href="https://wa.me/+522281705116" target="_blank" class="btn">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3 text-center">
+                    <img src="images/servicios-3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Bolsas de Gomitas </h4>
+                        <p class="card-text mt-3 text-muted">¿Quieres disfrutar de tus gomitas enchiladas favoritas en casa? Ofrecemos bolsas de mayoreo y menudeo, entregadas directamente en tu domicilio. ¡Ordénalas ahora y dale sabor a tu día!.</p>
+                        <a href="https://wa.me/+522281705116" target="_blank" class="btn">Cotizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end servicios -->
+
+    <!-- oferta -->
+    <section id="offers" class="py-5" style="background-image: url('images/promo-banner2.jpg');">
+        <div class="container">
+            <div
+                class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class="offers-content">
+                    <span class="text-white font-weight-bold">Descuento de hasta 20%</span>
+                    <h2 class="mt-2 mb-4 text-white">En tu primera compra</h2>
+                    <a href="#" class="btn">cotizar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end oferta -->
+
+
+    <!-- Conócenos -->
+    <section id="special">
+        <div class="container py-5">
+            <div class="title text-center py-5 ">
+                <h2 class="position-relative ">¡Conócenos!</h2>
+                <h4 class="position-relative ">Nosotros recientemente</h4>
+            </div>
+
+
+            <div class="special-list row g-0">
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/paquete-1.jpg" class="w-100">
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Ahora puedes encontrarnos en la tienda del Hotel Xalapa y en la tienda del cinema Carmela Rey.</p>
+                        <a href="https://www.instagram.com/p/CpThUXXMOK-/" target="_blank" class="btn btn-primary mt-3">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/paquete-2.jpg" class="w-100">
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Caja personalizada para una ocasión especial.</p>
+                        <a href="https://www.facebook.com/photo.php?fbid=888507552537048&set=pb.100041334337270.-2207520000.&type=3" target="_blank" class="btn btn-primary mt-3">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/paquete-3.jpg" class="w-100">
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Caja personalizada para una ocasión especial.</p>
+                        <a href="https://www.instagram.com/p/CnSF2K-uWBa/" target="_blank" class="btn btn-primary mt-3">Ver más</a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/portafolio-4.webp" class="w-100">
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Nuestro último evento con la mesa de dulces</p>
+                        <a href="https://www.instagram.com/p/CmsUsX7MR_k/" target="_blank" class="btn btn-primary mt-3">Ver más</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end of Conócenos -->
+
+    <!-- footer -->
+    <footer class="bg-dark ">
+        <div class="container">
+
+            <div class="row text-white g-4 ">
+                <div class="col-md-6 col-lg-4">
+                    <h5 class="fw-light">Chilesinas</h5>
+                    <p class="text-white text-muted mt-3">Chilesinas, golosinas picositas únicas que debes de probar; anímate y pide las tuyas. </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contacto</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </span>
+                        <span class="fw-light">
+                            Xalapa, Veracuz
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-mailbox2"></i>
+                        </span>
+                        <span class="fw-light">
+                            chilesinas@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="bi bi-telephone-fill"></i>
+                        </span>
+                        <span class="fw-light">
+                            22-81-70-51-16
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="fw-light mb-3">Síguenos</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100041334337270" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@chilesinas" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="bi bi-tiktok"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/chilesinas/" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="fw-light">Secciones</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">Home</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">Catálogo</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">Historia</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-1">
+                    <h5 class="fw-light">Intranet</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="https://docs.google.com/spreadsheets/d/1f9DObQQYbkOJwv4OfPzhaphAPRWZBU8OTWY55SrZwwo/edit#gid=0"
+                                class="text-white text-decoration-none text-muted">Admin</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-white align-items-center derechos">
+                <p class="col-sm-9 fs-4 px-5 derechos pt-3">Josué Acevedo. &copy; Todos Los Derechos Reservados 2023</p>
+
+                <div class="col-sm-2 icons derechos">
+                    <a class="text-primary" href="https://github.com/JosueAcevedo99" target="_blank"><i
+                            class="bi bi-github"></i></a>
+                    <a class="text-primary" href="https://mx.linkedin.com/" target="_blank"><i
+                            class="bi bi-linkedin"></i></a>
+                    <a class="text-primary" href="#"><i class="bi bi-arrow-up-circle-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- Modal CHATEAR -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header text-center justify-content-center">
+                    <h5 class="modal-title fs-2 w-100 text-center"><span class="text-primary">¡Contáctanos</span> y
+                        resolveremos tus dudas!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://wa.me/+522281705116" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image">
+                                        <i class="bi bi-whatsapp contatoIcon"></i>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h5>Whatsapp</h5>
+                                    <p class="text-primary text-center">22-81-70-51-16</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://www.instagram.com/p/CpNqns6sdfc/" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image">
+                                        <i class="bi bi-instagram contatoIcon"></i>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h5>Instagram</h5>
+                                    <p class="text-primary text-center">@Chilesinas</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-8">
+                            <a href="https://www.messenger.com/t/100041334337270" target="_blank">
+                                <div class="chat-item">
+                                    <div class="image my-auto py-auto">
+                                        <i class="bi bi-messenger contatoIcon"></i>
+                                    </div>
+                                    <h5>Messenger </h5>
+                                    <p class="text-primary text-center">Chilesinas</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Modal CHATEAR -->
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Custom -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
